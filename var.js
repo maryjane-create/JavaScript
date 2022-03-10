@@ -15,3 +15,6 @@ else  if (hourNow>0){
 else {greeting="welcome"}
 
 console.log(greeting)
+
+let  persons= ["ruth", "mary jane"]
+persons.map((persons)=>console.log(persons))

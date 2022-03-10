@@ -6,6 +6,14 @@ function  animation(defineCharacterMovement) {
     isWig: true,
     gender: "female"
   }
+
+  for (key in character){
+    console.log(Object.keys(character))
+  }
+
+  console.log()
+  console.log()
+
   defineCharacterMovement(character)
 }
 function  movement(person){
@@ -16,4 +24,8 @@ function  movement(person){
 
 animation(movement)
 
+
+let  persons= ["ruth", "mary jane"]
+persons.map((person)=>console.log(person))
+// document.write("good afternoon")
 
